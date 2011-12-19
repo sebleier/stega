@@ -7,6 +7,6 @@ setup(
     author_email = "sebleier@gmail.com",
     version = "0.0.1",
     packages = ["stega"],
-    description = "A steganography tool for lossless message hiding",
+    description = "A steganography tool for lossless message hiding in images.",
     install_requires=['PIL'],
 )

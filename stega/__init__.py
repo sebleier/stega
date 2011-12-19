@@ -139,7 +139,7 @@ class Stega(object):
     def close(self):
         self.img.close()
 
-    def split(self):
+    def extract(self):
         W = BitMessage()
         n = 0
         for b in self.B:

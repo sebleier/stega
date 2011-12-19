@@ -16,9 +16,9 @@ Usage::
     s = Stega(image)
     s.add_message(msg)
 
-    im, message = s.split()
+    im, message = s.extract()
     assert message == msg
 
 Run tests::
 
-    $ python tests/__init__.py
+    $ ./runtests
