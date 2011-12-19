@@ -18,3 +18,7 @@ Usage::
 
     im, message = s.split()
     assert message == msg
+
+Run tests::
+
+    $ python tests/__init__.py
