@@ -120,7 +120,7 @@ class StegaTest(unittest.TestCase):
         Test steganography by saving image to disk, then reopening to
         extract message
         "
-        msg = "What hath God wrought."
+        msg = "daniellindsleyrocksdahouse"
         s = Stega(self.image)
         s.add_message(msg)
         s.save("test_image.png")
@@ -138,7 +138,7 @@ class StegaTest(unittest.TestCase):
         Test stega with in memory image representation, i.e. not saving
         to disk and reopening later.
         """
-        msg = "What hath God wrought."
+        msg = "daniellindsleyrocksdahouse"
         s = Stega(self.image)
         s.add_message(msg)
         im, message = s.extract()
