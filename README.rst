@@ -8,6 +8,12 @@ messages into images.  The image that comes back is same as the original.
 The only requirement is that you use a lossless image format, so no jpeg
 images will work.
 
+This implementation was adapted from a `paper`_ titled "Lossless Data Hiding
+in the Spatial Domain for High Quality Images", written by Hong Lin Jin,
+Masaaki Fujiyoshi, and Hitoshi Kiya
+
+.. _paper: http://203.64.187.41/htdocs-41/em/771.pdf
+
 
 Usage::
 
@@ -22,3 +28,4 @@ Usage::
 Run tests::
 
     $ ./runtests
+
